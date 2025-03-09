@@ -98,8 +98,9 @@ std::vector<std::string> Parser::parseCommand(const char *command)
 	}
 	if (inQuote || escaped)
 	{
-		return std::vector<std::string>();
+		throw std::runtime_error("Unterminated quote or invalid parse");
 	}
+
 	if (!current.empty())
 	{
 		parts.push_back(current);
