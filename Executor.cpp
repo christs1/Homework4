@@ -1,4 +1,10 @@
-
+/**
+ * Name: Christian Rodriguez
+ * Email: christs@csu.fullerton.edu
+ * CWID: 888832854
+ * Course: 351
+ * Assignment: Command Line Intepreter
+ */
 /**
  * TODO:
  * You will need to implement the methods listed here.
